@@ -1,0 +1,358 @@
+@media screen and (max-width: 750px) {
+    header {
+      justify-content: space-around;
+    }
+    .movementHead {
+      display: none;
+    }
+    .hamBurgerDiv {
+      display: block;
+    }
+    li > button {
+      padding: 5px 10px 20px 10px;
+      font-size: 10px;
+      width: 100px;
+      height: 20px;
+      margin: 0;
+      border-radius: 2px;
+    }
+    .logoDiv > img {
+      margin: 0;
+      width: 100px;
+    }
+  }
+  
+  @media screen and (max-width:260px) {
+    .logoDiv>img{
+      width:70px
+    }
+    li>button{
+      padding: 5px 5px 5px 5px;
+      width: 70px;
+      font-size: 8px;
+  
+    }
+    .hamBurgerDiv>img{
+      width: 15px;
+    }
+    
+  }
+
+
+
+  @media screen and (max-width: 870px) {
+    .heroSection {
+      padding-top: 0;
+    }
+    .introDiv > h1 {
+      font-size: 2.7rem;
+    }
+    .introDiv > p {
+      font-size: 0.6rem;
+      word-spacing: normal;
+    }
+    .introDivImg > img {
+      /* flex-shrink: 0; */
+      width: 200px;
+      height: 211px;
+    }
+  }
+  
+  @media screen and (max-width: 630px) {
+    .heroSection {
+      height: 300px;
+    }
+  
+    .introDiv > h1 {
+      font-size: 1.5rem;
+    }
+    /* .introDiv>h1 */
+    .introDiv > p {
+      font-size: 0.4rem;
+      /* word-spacing: normal; */
+    }
+    .introDivImg > img {
+      /* flex-shrink: 0; */
+      width: 170px;
+      height: 181px;
+    }
+    .introDiv > button {
+      width: 100px;
+      height: 30px;
+    }
+
+    .clientsSection>h2{
+        font-size: 1.3rem;
+        /* background-color: red; */
+    }
+    .clientsSection>p{
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+    .clientsSection>div{
+        display: block;
+        max-width: 80vw;
+        margin: 0 auto;
+        max-height: 50px;
+        /* overflow-x: scroll; */
+        white-space: nowrap;
+        overflow: scroll;
+        border-radius: 20px;
+        scrollbar-width: none;
+        
+    }
+    .clientsSection>div>img{
+        margin-left: 50px;
+        
+    }
+    .clientsSection>div>img:first-child{
+        margin-left: 0px;
+    }
+
+    .manageSection>h2{
+        font-size: 1.3rem;
+    }
+    .manageSection>p{
+        font-size: 0.8rem;
+    }
+    
+
+
+
+
+
+
+
+
+
+  }
+  @media screen and (max-width: 410px) {
+    .heroSection {
+      flex-direction: column;
+      height: 400px;
+      text-align: center;
+      /* justify-content: spa; */
+    }
+    .introDiv {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      /* margin-bottom: 10px; */
+    }
+  }
+
+
+
+
+  @media screen and (max-width:1000px) {
+    .manage{
+        width: 150px;
+        height: 150px;
+        gap: 5px;
+    }
+    .manage>h3{
+        font-size: 0.9rem;
+    }
+    .manage>div>img{
+        width: 40px;
+    }
+    .manage>p{
+        font-size: 0.6rem;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .manageSystem{
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:880px) {
+  .pixelgradediv>img{
+      width: 300px;
+  }
+  .pixelgradeContainer>h2{
+      font-size: 1.5rem;
+  }
+  .pixelgradeContainer>p{
+      font-size: 0.6rem;
+  }
+  .pixelgradeButton>button{
+      font-size: 0.6rem;
+      width: 70px;
+      height: 20px;
+  }
+}
+
+@media screen and (max-width:670px){
+  .pixelgrade{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      /* gap: 40px; */
+  }
+  .pixelgradeContainer{
+      text-align: center;
+      margin-top: 40px;
+      width: 97vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+}
+
+@media screen and (max-width:490px) {
+  .pixelgradediv>img{
+      width: 200px;
+  }
+  .pixelgradeContainer>h2{
+      font-size: 1.3rem;
+  }
+  
+}
+
+
+
+@media screen and (max-width:700px) {
+  .communitySection{
+      flex-direction: column;
+      gap: 30px;
+  }
+  .communityHead>h2{
+      margin-top: 20px;
+  }
+  
+}
+@media screen and (max-width:580px) {
+  .communityHead>h2{
+      font-size: 1.5rem;
+      /* text-align:/ center; */
+  }
+  .communityHead>p{
+      font-size: 0.8rem;
+  }
+  .communityHead{
+      text-align: center;
+  }
+  .containerData>h3{
+      font-size: 1rem;
+  }
+  .containerData>p{
+      font-size: 0.8rem;
+  }
+  .container{
+      gap: 10px;
+  }
+  
+}
+
+
+
+@media screen and (max-width:1000px) {
+  .marketingContainer{
+      /* grid-template-columns: 0; */
+      gap: 10px;
+      /* grid-template-rows: repeat(1fr,3); */
+      display: flex;
+      flex-shrink: 1;
+      
+  }
+  .marketing{
+      flex-shrink: 1;
+  }
+}
+@media screen and (max-width:810px) {
+  .marketingContainer{
+      flex-direction: column;
+      gap: 100px;
+  }
+  .marketing>p{
+
+      width: fit-content;
+      padding:  0 20px;
+      font-size: 0.7rem;
+  }
+  .marketing>h2{
+      font-size: 1.5rem;
+  }
+  
+}
+  
+
+
+@media screen and (max-width:800px) {
+  .footerContainer4{
+      display: none;
+  }
+  
+}
+@media screen and (max-width:600px) {
+  .footerContainer1>div>img{
+      width: 25px;
+  }
+  .footerContainer1 span{
+      font-size: 1rem;
+  }
+  .footerContainer1 p{
+      font-size: 0.6rem;
+  }
+  .socilaLinksDiv>div>img{
+      width: 25px;
+  }
+  .socilaLinksDiv{
+      width: 130px;
+  }
+  .footerContainer2>h3,.footerContainer3>h3,.footerContainer4>h3{
+      /* margin-top: 20px; */
+      font-size: 1rem;
+  }
+  .footerContainer2 li,.footerContainer3 li{
+      font-size: 0.7rem;
+
+  }
+  
+}
+@media screen and (max-width:350px) {
+  footer{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  }
+  .footerContainer1{
+      grid-column: span 2;
+      margin: 0 auto;
+  }
+  .footerContainer2,.footerContainer3{
+      margin: 0 auto;
+  }
+  
+}
+
+@media screen and (max-width:260px) {
+  footer{
+      display: flex;
+      flex-direction: column;
+  }
+  .footerContainer2{
+      text-align: center;
+  }
+ .footerContainer3{
+
+  display: none;
+ }
+
+}
